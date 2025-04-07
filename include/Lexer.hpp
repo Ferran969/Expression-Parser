@@ -237,7 +237,7 @@ private:
         }
     }
 
-    frontend::string::FastString getNumericLiteral()
+    string::FastString getNumericLiteral()
     {
         std::string literal;
         if (peekChar() == '0') {
@@ -291,7 +291,7 @@ private:
         return string::FastString(std::move(literal));
     }
     
-    frontend::string::FastString getStringLiteral()
+    string::FastString getStringLiteral()
     {
         std::string literal;
         // Ingore '"'.
@@ -310,7 +310,7 @@ private:
         return string::FastString(std::move(literal));
     }
 
-    frontend::string::FastString getIdentifier()
+    string::FastString getIdentifier()
     {
         std::string identifier;
         // By precondition, it should be valid.
