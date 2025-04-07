@@ -1,0 +1,5 @@
+/home/ferran/Desktop/EthLang/Metalanguage/Project/ExpressionParser/build/CMakeFiles/ExpressionParserLib.dir
+/home/ferran/Desktop/EthLang/Metalanguage/Project/ExpressionParser/build/CMakeFiles/testLexer.dir
+/home/ferran/Desktop/EthLang/Metalanguage/Project/ExpressionParser/build/CMakeFiles/testParser.dir
+/home/ferran/Desktop/EthLang/Metalanguage/Project/ExpressionParser/build/CMakeFiles/edit_cache.dir
+/home/ferran/Desktop/EthLang/Metalanguage/Project/ExpressionParser/build/CMakeFiles/rebuild_cache.dir
