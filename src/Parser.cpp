@@ -1,5 +1,7 @@
 #include "Parser.hpp"
 
+#include <utility>
+
 auto frontend::Parser::parseList(TokenType delimiter) -> std::vector<std::unique_ptr<Expression>>
 {
     std::vector<std::unique_ptr<Expression>> list;
@@ -238,7 +240,7 @@ auto frontend::Parser::parseUnaryLeftAssociative() -> std::unique_ptr<Expression
                 break;
             }
             // Should never reach default.
-            default: break;
+	    default: std::unreachable();
         }
         opType = m_lexer.peek().type;
     }
